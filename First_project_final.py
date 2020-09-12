@@ -13,7 +13,7 @@ def analemma(phi = 45,time_h = 6,time_m = 0):
     alpha = np.cos((t-6) * 2 / 24 * np.pi )*(90 - phi)
     h = np.sin((t-6)*2/24*np.pi)*(90-phi)
     x = x0 * np.cos(-alpha*np.pi/180) + y0 * np.sin(-alpha*np.pi/180)
-    y = y0 * np.cos(-alpha*np.pi/180) - x0 * np.sin(-alpha*np.pi/180)  +h
+    y = y0 * np.cos(-alpha*np.pi/180) - x0 * np.sin(-alpha*np.pi/180) + h
 
     
     plt.axis('equal')
