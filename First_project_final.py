@@ -20,4 +20,4 @@ def analemma(phi = 45,time_h = 6,time_m = 0):
     plt.plot([-40,40],[0,0], '-', color = 'r')
     plt.plot(x,y,'.',color = 'b')
     
-analemma(0,6,0)
+analemma()
