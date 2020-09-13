@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 
 def analemma(phi = 45,time_h = 6,time_m = 0):
     #Функция, рисующая аналемму на заданную широту и время.(phi<0 - южные широты)
+    #Красная линия - горизонт
     E = 23.44
     dates = np.arange(1,365,10)
     B = 2 * np.pi * (dates - 81)/365.2564
